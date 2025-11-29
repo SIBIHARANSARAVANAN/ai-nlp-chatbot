@@ -7,13 +7,16 @@ from fastapi.middleware.cors import CORSMiddleware
 
 
 app = FastAPI(title="AI NLP Chatbot")
+
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # allow all origins for development
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))

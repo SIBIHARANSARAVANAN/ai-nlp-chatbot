@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:8000/chat";
+const API_URL = "https://ai-nlp-chatbot.onrender.com/chat";
 
 
  // change to Render URL after deploy
